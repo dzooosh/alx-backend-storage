@@ -1,0 +1,7 @@
+
+CREATE TABLES IF NOT EXISTS users (
+    id NOT NULL PRIMARY_KEY=True,
+    email VARCHAR(255) NOT NULL UNIQUE=True,
+    name VARCHAR(255) NOT NULL,
+    country
+);
